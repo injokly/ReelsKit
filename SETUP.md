@@ -3,8 +3,8 @@
 > **사람이 할 일**
 > 1. Claude 데스크톱 앱 → **Code** 탭 → 폴더 선택에서 `문서` 폴더를 고른다
 >    (터미널에서 `claude`를 쓰는 분은 아무 폴더에서 실행)
-> 2. 이렇게 입력한다: **이 저장소 받아서 SETUP.md 읽고 진행해줘: <저장소 주소>**
->    (zip으로 받았다면 풀어 둔 `jarc-reels-kit` 폴더를 열고 **SETUP.md 읽고 진행해줘**)
+> 2. 이렇게 입력한다: **https://github.com/injokly/ReelsKit 받아서 SETUP.md 읽고 진행해줘**
+>    (이 파일만 따로 받았다면 파일을 Claude에 올리고 **SETUP.md 읽고 진행해줘**)
 >
 > 중간에 Claude가 "이건 직접 눌러 주세요"라고 하는 곳(로그인, 권한 허용)만 눌러 주면 된다.
 
@@ -19,9 +19,11 @@
 - 이 키트는 맥 전용이다. Homebrew나 관리자 비밀번호 없이 설치되게 만들어 두었다
 - 각 단계가 끝날 때마다 한 줄로 알려 준다 (예: "1/5 프로그램 설치 끝")
 
-## 0. 저장소 받기 (주소를 받았을 때만)
+## 0. 저장소 받기
+- 저장소 주소: **https://github.com/injokly/ReelsKit**
 - 지금 폴더에 `SETUP.md`와 `scripts/`가 이미 있으면 건너뛴다
-- `git clone <주소> jarc-reels-kit` 후 그 폴더로 들어가서 이어 한다. 이후 명령은 모두 그 폴더 안에서 실행한다
+- 없으면 `~/Documents`에서 `git clone https://github.com/injokly/ReelsKit.git jarc-reels-kit`을 하고 그 폴더로 들어간다. 이미 `~/Documents/jarc-reels-kit`이 있으면 그 폴더에서 `git pull`만 한다. 이후 명령은 모두 그 폴더 안에서 실행한다
+- 폴더를 옮겼으니, 다 끝난 뒤 사용자에게 "앞으로는 Claude 앱에서 `문서/jarc-reels-kit` 폴더를 열고 쓰면 돼요"라고 알려 준다
 - git이 없다고 나오면 macOS가 "개발자 도구 설치" 창을 띄운다. 사용자에게 **설치**를 눌러 달라고 하고 끝나면 다시 시도한다
 - 비공개 저장소라 로그인을 요구하면, 사용자에게 저장소 주인에게 초대를 받았는지 확인하고 GitHub 로그인을 해 달라고 한다
 - 나중에 키트가 바뀌었다는 말을 들으면 `git pull`로 받는다
