@@ -1,0 +1,104 @@
+{
+  "session": {
+    "id": "sample",
+    "date": "11.23",
+    "wod": {
+      "title": "Run & Station Interval",
+      "summary": "3분 RUN + 2분 STATION × 6 SETS",
+      "sets": [
+        "SkiErg",
+        "Sled Push",
+        "Sled Pull",
+        "Row",
+        "Farmer's Carry",
+        "Wall Ball"
+      ]
+    },
+    "wodCuts": 3,
+    "cuts": [
+      {
+        "src": "sample.mp4",
+        "start": 0.0,
+        "seconds": 1.433
+      },
+      {
+        "src": "sample.mp4",
+        "start": 1.433,
+        "seconds": 1.967
+      },
+      {
+        "src": "sample.mp4",
+        "start": 3.4,
+        "seconds": 1.433
+      },
+      {
+        "src": "sample.mp4",
+        "start": 4.833,
+        "seconds": 0.9
+      },
+      {
+        "src": "sample.mp4",
+        "start": 5.733,
+        "seconds": 1.1,
+        "brightness": 1.3
+      },
+      {
+        "src": "sample.mp4",
+        "start": 6.833,
+        "seconds": 1.467
+      },
+      {
+        "src": "sample.mp4",
+        "start": 8.3,
+        "seconds": 0.867
+      },
+      {
+        "src": "sample.mp4",
+        "start": 9.167,
+        "seconds": 1.733
+      },
+      {
+        "src": "sample.mp4",
+        "start": 10.9,
+        "seconds": 1.6
+      },
+      {
+        "src": "sample.mp4",
+        "start": 12.5,
+        "seconds": 1.333
+      },
+      {
+        "src": "sample.mp4",
+        "start": 13.833,
+        "seconds": 0.833
+      },
+      {
+        "src": "sample.mp4",
+        "start": 14.667,
+        "seconds": 1.9
+      },
+      {
+        "src": "sample.mp4",
+        "start": 16.567,
+        "seconds": 1.9
+      },
+      {
+        "src": "sample.mp4",
+        "start": 18.467,
+        "seconds": 1.133
+      },
+      {
+        "src": "sample.mp4",
+        "start": 19.6,
+        "seconds": 1.4
+      },
+      {
+        "src": "sample.mp4",
+        "start": 21.0,
+        "seconds": 1.5,
+        "zoom": 1.3,
+        "centerX": 0.65
+      }
+    ]
+  }
+}

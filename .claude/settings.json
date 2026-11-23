@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(zsh scripts/setup.sh:*)",
+      "Bash(zsh scripts/prepare.sh:*)",
+      "Bash(zsh scripts/render.sh:*)",
+      "Bash(npx remotion still:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run check:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}

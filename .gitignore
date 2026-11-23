@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+out/*
+!out/.gitkeep
+work/*
+!work/.gitkeep
+public/sessions/*
+!public/sessions/sample
